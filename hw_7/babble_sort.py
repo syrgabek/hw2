@@ -6,7 +6,7 @@ def bubbleSort(arr):
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
 
-list = []
+list = [12,2,3,4,5,6,7,4,3,2,]
 bubbleSort(list)
 
 print(list)

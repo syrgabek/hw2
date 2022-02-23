@@ -6,7 +6,7 @@ def selection_sort(array):
                 smallest = j
         array[i], array[smallest] = array[smallest], array[i]
 
-list = [5,2,8,1,3,6,9,0,4]
+list = [5,2,8,1,2,2,2,3,6,9,0,4]
 selection_sort(list)
 
 print(list)
